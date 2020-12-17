@@ -1,0 +1,9 @@
+.parent {
+  background-color: rgb(50, 164, 250);
+  padding: 20px;
+}
+c-color-picker,
+c-selected-size-color {
+  display: inline-block;
+  width: 50%;
+}

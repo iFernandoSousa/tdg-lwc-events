@@ -1,0 +1,8 @@
+.THIS.sibling {
+  background-color: rgb(255, 177, 255);
+  padding: 20px;
+}
+
+.THIS .circle {
+  border-radius: 100%;
+}

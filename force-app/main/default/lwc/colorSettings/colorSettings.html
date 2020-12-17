@@ -1,0 +1,10 @@
+<template>
+    <div class="parent">
+        <lightning-input value={selectedSize} label="Size" onchange={onSizeChanged}></lightning-input>
+        <div>
+            <c-color-picker selected-color={selectedColor} oncolorpickerselected={onColorPickerChanged}>
+            </c-color-picker>
+            <c-selected-size-color size={selectedSize} color={selectedColor}></c-selected-size-color>
+        </div>
+    </div>
+</template>
